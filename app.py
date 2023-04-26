@@ -1,8 +1,10 @@
 import packages.data_processor as dp
 import streamlit as st 
 import joblib
+'''
 import os
 os.chdir("")
+'''
 
 # Load the model
 spam_clf = joblib.load(open('models/my_spam_model.pkl','rb'))
