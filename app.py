@@ -2,7 +2,7 @@ import packages.data_processor as dp
 import streamlit as st 
 import joblib
 import os
-os.chdir(r"C:\Users\Rashmi Lakshya\Desktop\Projects\Data Science Projects-20230425T112417Z-001\Data Science Projects\streamlit-spam-detector-main\SSD")
+os.chdir(r"\")
 
 # Load the model
 spam_clf = joblib.load(open('models/my_spam_model.pkl','rb'))
